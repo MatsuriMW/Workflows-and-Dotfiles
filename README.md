@@ -1,13 +1,2 @@
-This is a collection of my often-use alfred workflows and my .zshrc file. It's currently under construction.
-# Internet
-changes can be made.
-
-
-
-# Tools
-
-
-
-
-
-# Dev
+# Dotfiles for Mac
+Alfred, Neovim, zsh, fig, Git, tig, VSCode, Clash, Alacritty, Starship,
