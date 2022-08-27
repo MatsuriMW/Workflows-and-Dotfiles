@@ -118,6 +118,23 @@ alias wuxi1='curl wttr.in/无锡'
 alias wuxi2='curl v2.wttr.in/Wuxi'
 alias tmux2='zsh <(curl -L zellij.dev/launch)'
 
+alias -s c=neovim
+alias -s js=neovim
+alias -s txt=neovim
+alias -s md=neovim
+alias -s uml=neovim
+
+alias tree='tree -N'
+alias nc=' /usr/bin/nc'
+alias bat='bat -p --paging=never'
+alias ccp=' rsync --progress --iconv=UTF-8,GBK'
+alias bat='highlight
+alias rm=' trash'
+alias diff=' icdiff"
+alias srm=' shred -f -v -Z -U --iterat ions=36
+alias sat="sed ' :a;s/^\( [[:space:]]*\)[[:space: 1]/1• /;ta""
+
+
 # verbose
 alias mkdir='mkdir -v'
 alias mv='mv -v'
@@ -290,4 +307,3 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
-___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
